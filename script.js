@@ -89,6 +89,39 @@ srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
 
 
+function viewResume() {
+  const resumeUrl = "./Kirana's Resume.pdf"; // Ensure the path to your resume is correct
+  window.open(resumeUrl, '_blank');
+}
+
+
+/*-------email----- */
+// Include this script in your HTML <head> or before closing <body> tag
+// <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+// (function() {
+//   emailjs.init("YOUR_USER_ID");  // Replace 'YOUR_USER_ID' with your EmailJS user ID
+// })();
+
+// function sendEmail() {
+//   const templateParams = {
+//       from_name: document.getElementById("user_name").value,
+//       from_email: document.getElementById("user_email").value,
+//       message: document.getElementById("user_message").value,
+//   };
+
+//   emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+//       .then(function(response) {
+//           console.log("SUCCESS!", response.status, response.text);
+//           alert("Message sent successfully!");
+//       }, function(error) {
+//           console.error("FAILED...", error);
+//           alert("Failed to send the message. Please try again.");
+//       });
+// }
+
+
+
 
 /* ----- CHANGE ACTIVE LINK ----- */
 
