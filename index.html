@@ -76,12 +76,19 @@
                             and user-friendly websites.
                         </p>
                     </div>
-                    <div class="featured-text-btn">
+                    <!-- <div class="featured-text-btn">
                         <button class="btn blue-btn">Hire Me</button>
                         <a href="./Kirana's Resume.pdf" download class="btn">
                             Download CV <i class="uil uil-file-alt"></i>
                         </a>
+                    </div> -->
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn" onclick="viewResume()">View Resume</button>
+                        <a href="./Kirana's Resume.pdf" download class="btn">
+                            Download CV <i class="uil uil-file-alt"></i>
+                        </a>
                     </div>
+                    
                     
                     <div class="social_icons">
                         <div class="icon"><i class="uil uil-instagram"></i></div>
@@ -155,8 +162,6 @@
                             </div>
                             <div class="skills-list">
                                 <span>MySQL</span>
-
-
                             </div>
                         </div>
                     </div>
@@ -221,6 +226,24 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" id="user_name" class="input-field" placeholder="Name" required>
+                                <input type="email" id="user_email" class="input-field" placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea id="user_message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" onclick="sendEmail()">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+
+
                 </div>
             </section>
 
@@ -274,6 +297,10 @@
 
     <!-- ----- MAIN JS ----- -->
     <script src="./script.js"></script>
+
+    <!-- email -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 </body>
 
 </html>
